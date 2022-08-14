@@ -1,0 +1,83 @@
+/* resets */
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital@1 & display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body, html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: lightslategray;
+}
+/* resets */
+
+.centralizar-main{
+  min-width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+p{
+  margin-bottom: 40px;
+  text-align: left;
+}
+h2{
+  margin-bottom: 20px;
+}
+header{
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.imagem img{
+  width: 300px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .2);
+
+}
+.pog img{
+  border-radius:50%;
+  width: 150px;
+  float: right;
+}
+
+.imagem img:nth-last-child(2) {
+  margin-bottom: 0px;
+}
+p:last-child{
+  margin-bottom:0px;
+}
+
+#description{
+  font-style: italic;
+  font-weight: 300;
+  margin: 0;
+}
+@media (min-width: 600px ){
+  .centralizar-main {
+    min-width: 0;
+    width: 500px;
+  }
+
+}
+.left img{
+  float: right;
+  width: 150px;
+}
+footer{
+  background-color: black;
+  color:white;
+  height: 50px;
+  display:flex;
+  justify-content: center;
+}
